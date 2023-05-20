@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints numbers between 0 to 9 with commas and spaces..
+ * main - prints numbers between 00 to 89.
  *
  * Return: Always 0 (Success)
  */
