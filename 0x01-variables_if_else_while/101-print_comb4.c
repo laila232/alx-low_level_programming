@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints numbers between 00 to 89.
+ * main - prints numbers between 012 to 789.
  *
  * Return: Always 0 (Success)
  */
