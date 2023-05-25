@@ -11,9 +11,10 @@ if (n > 0)
 {
 for (i = 1; i <= n; i++)
 {
-_putchar('_');
+putchar('_');
+putchar('\n');
 }
 }
 else
-_putchar('\n');
+putchar('\n');
 }
