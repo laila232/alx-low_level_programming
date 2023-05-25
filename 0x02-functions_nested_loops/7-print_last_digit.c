@@ -15,4 +15,3 @@ else
 	_putchar(lastdigit + '0');
 return (lastdigit);
 }
-}
