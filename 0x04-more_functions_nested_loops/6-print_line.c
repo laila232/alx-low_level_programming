@@ -11,10 +11,10 @@ if (n > 0)
 {
 for (i = 1; i <= n; i++)
 {
-putchar('_');
-putchar('\n');
+_putchar('_');
+_putchar('\n');
 }
 }
 else
-putchar('\n');
+_putchar('\n');
 }
