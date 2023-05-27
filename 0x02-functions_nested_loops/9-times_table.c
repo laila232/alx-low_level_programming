@@ -14,19 +14,19 @@ for (j = 0; j <= 9; j++)
 m = i * j;
 if (m <= 9)
 {
-_putchar (m + '0');
+putchar (m + '0');
 }
 else
 {
-_putchar(m / 10 + '0');
-_putchar (m % 10 + '0');
+putchar(m / 10 + '0');
+putchar (m % 10 + '0');
 }
 if (j < 9)
 {
-_putchar(',');
-_putchar(' ');
+putchar(',');
+putchar(' ');
 }
 }
-_putchar('\n');
+putchar('\n');
 }
 }
