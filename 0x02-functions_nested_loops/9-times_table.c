@@ -12,21 +12,30 @@ for (i = 0; i <= 9; i++)
 for (j = 0; j <= 9; j++)
 {
 m = i * j;
-if (m <= 9)
+if (j == 0)
 {
-putchar (m + '0');
+_putchar ('0');
+}
+else if (m <= 9)
+{
+_putchar (' ');
+_putchar (' ');
+_putchar (m + '0');
 }
 else
 {
-putchar(m / 10 + '0');
-putchar (m % 10 + '0');
+_putchar (' ');
+_putchar(m / 10 + '0');
+_putchar (m % 10 + '0');
 }
 if (j < 9)
 {
-putchar(',');
-putchar(' ');
+_putchar(',');
+}
+else
+{
+_putchar('\n');
 }
 }
-putchar('\n');
 }
 }
