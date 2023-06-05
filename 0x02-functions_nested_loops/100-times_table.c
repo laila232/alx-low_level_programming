@@ -1,8 +1,7 @@
 #include "main.h"
-
 /**
  * print_times_table - prints the n times table, starting with 0.
- * @n: if n>15 or n<0, the funct doesn't print anything and returns immediately.
+ * @n: taせ number input.
  * Return: 0 always (success)
  */
 void print_times_table(int n)
