@@ -17,37 +17,37 @@ for (j = 0; j <= n; j++)
 m = i * j;
 if (j == 0)
 {
-putchar('0');
+_putchar('0');
 }
 else if (m <= 9)
 {
-putchar(' ');
-putchar(' ');
-putchar(' ');
-putchar(m + '0');
+_putchar(' ');
+_putchar(' ');
+_putchar(' ');
+_putchar(m + '0');
 }
 else if (m <= 99)
 {
-putchar(' ');
-putchar(' ');
-putchar(m / 10 + '0');
-putchar (m % 10 + '0');
+_putchar(' ');
+_putchar(' ');
+_putchar(m / 10 + '0');
+_putchar (m % 10 + '0');
 }
 else if (m >= 100)
 {
 q = m / 10;
-putchar(' ');
-putchar(q / 10 + '0');
-putchar (q % 10 + '0');
-putchar (m % 10 + '0');
+_putchar(' ');
+_putchar(q / 10 + '0');
+_putchar (q % 10 + '0');
+_putchar (m % 10 + '0');
 }
 if (j < n)
 {
-putchar(',');
+_putchar(',');
 }
 else
 {
-putchar('\n');
+_putchar('\n');
 }
 }
 }
