@@ -1,0 +1,55 @@
+#include "main.h"
+
+/**
+ * print_times_table - prints the n times table, starting with 0.
+ * @n: if n>15 or n<0, the funct doesn't print anything and returns immediately.
+ * Return: 0 always (success)
+ */
+void print_times_table(int n)
+{
+int i, j, m, q;
+if ((n < 15) && (n > 0))
+{
+for (i = 0; i <= n; i++)
+{
+for (j = 0; j <= n; j++)
+{
+m = i * j;
+if (j == 0)
+{
+putchar('0');
+}
+else if (m <= 9)
+{
+putchar(' ');
+putchar(' ');
+putchar(' ');
+putchar(m + '0');
+}
+else if (m <= 99)
+{
+putchar(' ');
+putchar(' ');
+putchar(m / 10 + '0');
+putchar (m % 10 + '0');
+}
+else if (m >= 100)
+{
+q = m / 10;
+putchar(' ');
+putchar(q / 10 + '0');
+putchar (q % 10 + '0');
+putchar (m % 10 + '0');
+}
+if (j < n)
+{
+putchar(',');
+}
+else
+{
+putchar('\n');
+}
+}
+}
+}
+}
