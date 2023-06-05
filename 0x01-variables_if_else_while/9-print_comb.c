@@ -7,9 +7,10 @@
 int main(void)
 {
 int ;
-for (i = 48; i <= 56; i++)
+for (i = 48; i <= 57; i++)
 {
-if (i != 9)
+putchar(i);
+if (i != 57)
 {
 putchar(',');
 putchar(' ');
@@ -19,4 +20,5 @@ else
 putchar('\n');
 }
 }
+return (0);
 }
